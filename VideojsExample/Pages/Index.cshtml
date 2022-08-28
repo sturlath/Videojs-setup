@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section scripts{
+    <script src="/Pages/Index.cshtml.js"></script>
+}
+
+<input type="hidden" id="TokenHidden" name="PersonId" asp-for="@Model.TokenHidden" />
+<input type="hidden" id="ManifestUrlHidden" name="PersonId" asp-for="@Model.ManifestUrlHidden" />
+
+<div class="text-center">
+    <h1 class="display-4">VideoJs</h1>
+
+    <video id="video"
+           class="video-js vjs-default-skin vjs-16-9"
+           controls
+           autoplay
+           preload="auto"
+           poster="//vjs.zencdn.net/v/oceans.png"
+           data-setup='{}'>
+    </video>
+</div>
