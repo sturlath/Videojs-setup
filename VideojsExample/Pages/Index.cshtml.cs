@@ -25,7 +25,7 @@ namespace VideojsExample.Pages
 
             // You can create a new token by following the this question https://docs.microsoft.com/en-us/answers/questions/858600/aes-token-not-working-on-ios-iphone-asked-to-add-p.html?childToView=984307#answer-984307
             // But basically hit this url https://www.ibeinni.is/Event/ViewEvent/8cf1dc7a-b7e3-4c2f-a709-4a9503f18dc6?couponCode=815563&drm=x9  and registering and I print out new token
-            var token = "Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6Y29udGVudGtleWlkZW50aWZpZXIiOiI1MjI5YjkzOC1kYWFlLTQwNWUtOGMzMy00YjViZTU0ZmRjZmEiLCJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6bWF4dXNlcyI6IjUiLCJuYmYiOjE2NjM4MzIzNzYsImV4cCI6MTY2MzgzMzI3NiwiaXNzIjoiaUJlaW5uaUlzc3VlciIsImF1ZCI6ImlCZWlubmlBdWRpZW5jZSJ9.7MrNBEt7hJ5XmK5muBVN2yP7Hn1j3YUEQ52VYvr5LGQ";
+            var token = "Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6Y29udGVudGtleWlkZW50aWZpZXIiOiI1MjI5YjkzOC1kYWFlLTQwNWUtOGMzMy00YjViZTU0ZmRjZmEiLCJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6bWF4dXNlcyI6IjUiLCJuYmYiOjE2NjM4MzMwNjIsImV4cCI6MTY2MzgzMzk2MiwiaXNzIjoiaUJlaW5uaUlzc3VlciIsImF1ZCI6ImlCZWlubmlBdWRpZW5jZSJ9.Xa-xhKerMZ9ZPdWLJL9o89J-ErIUXXCB6wZN9QQWPbQ";
             TokenHidden = $"{token}";
 
 
